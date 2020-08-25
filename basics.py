@@ -36,8 +36,8 @@ name = ("virat")    #A string
 
 
 #Python tuple
-tuple = ('abcd',65,'rohit sharma',98.9,)
-tinytuple = (162.2,'mohnish')
+#tuple = ('abcd',65,'rohit sharma',98.9,)
+#tinytuple = (162.2,'mohnish')
 
 #print (tuple)
 #print (tuple[2:4])
@@ -45,3 +45,26 @@ tinytuple = (162.2,'mohnish')
 #print (tinytuple * 2)
 #print (tuple + tinytuple)
 
+
+#a = "neeraj"
+#print (a[0])
+#print (a[1])
+#print (a[2])
+#print (a[1:4])
+#print (a[-1])
+#print (a[-2])
+#print (a[-2:])
+#print (a[3:])
+
+#Dictionaries.........
+
+dict = {}
+dict['one'] = "This is one"
+dict[2] = "This is two"
+tinydict = {'name': 'tashmeet','code': 'A12405216168','dept': 'sales'}
+
+#print (dict['one'])
+#print (dict[2])
+#print (tinydict)
+#print (tinydict.keys())
+print (tinydict.values())
