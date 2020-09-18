@@ -1,16 +1,24 @@
+#string is palindrome or not
 
 
-#TO SWAP TWO NUMBERS!!!!!!!!!!!!!
+string = input("enter a string:")
+string = string.casefold()
+rev_string = reversed(string)
+if list(string) == list(rev_string):
+  print("the string is palindrome.")
+else:
+  print("string is not pslindrome.")
 
-x = input('Enter value of x: ')
-y = input('Enter value of y: ')
 
 
-temp = x
-x = y
-y = temp
 
-print('The value of x after swapping:' , x )
-print('The value of y after swapping:' , y )
+
+
+
+
+
+
+
+
 
 
